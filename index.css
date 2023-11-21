@@ -1,0 +1,24 @@
+
+  
+  #game-container {
+    position: relative;
+  }
+  
+  .bubble {
+    width: 50px;
+    height: 50px;
+    background-color: #3498db;
+    border-radius: 50%;
+    position: absolute;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .pop-text {
+    position: absolute;
+    font-size: 18px;
+    font-weight: bold;
+    color: #e74c3c;
+    display: none;
+  }
+  
